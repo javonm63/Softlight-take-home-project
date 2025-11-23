@@ -1,0 +1,31 @@
+.not-found-main-cont {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation-name: blink;
+    animation-duration: 5s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.not-found-text1 {
+    width: 50vw;
+    text-align: center;
+    font-size: 150px;
+    margin: 0;
+}
+
+.not-found-text2 {
+    margin: 0;
+}

@@ -1,0 +1,236 @@
+.docs-page-container {
+    width: 99vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.docs-page-back-btn {
+    position: absolute;
+    top: 12.5vh;
+    left: 1.5vw;
+    width: 40px;
+    height: 40px;
+    opacity: 75%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.276);
+    border-radius: 50%;
+    z-index: 9999;
+}
+.docs-page-back-btn:hover {
+    scale: 1.025;
+    opacity: 1;
+    cursor: pointer;
+}
+.docs-section1-cont {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/docsBg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.docs-section1-title {
+    padding: 10px;
+    margin: 0;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 95);
+    background-color: rgba(255, 255, 255, 0.903);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+.docs-section1-info {
+    padding: 10px;
+    width: 75%;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 95);
+    background-color: rgba(255, 255, 255, 0.798);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+.docs-sections-titles {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 95);
+}
+.docs-section2-cont {
+    margin-bottom: 8vh;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.docs-section2-left-cont {
+    border-radius: 10px;
+    width: 39%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.276);
+}
+.features-list-cont {
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.features {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 95);
+    width: 100%;
+}
+.docs-section2-right-cont {
+    width: 59%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.docs-section2-info {
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    font-size: 18.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 95);
+    border: none;
+    outline: none;
+}
+.docs-section3-cont {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.limitation-label {
+    color: rgb(0, 0, 95);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.docs-section3-list-cont {
+    list-style: none;
+}
+.limitations {
+    text-align: center;
+    color: rgb(0, 0, 95);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.docs-section4-cont {
+    margin-top: 10vh;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.docs-section4-left-cont {
+    width: 59%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.docs-section4-info {
+    width: 90%;
+    margin: 0;
+    margin-bottom: 4%;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 95);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.docs-section4-right-cont {
+    border-radius: 10px;
+    width: 39%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.439);
+    background-image: url('/usage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.docs-section4-info2 {
+    border-radius: 10px;
+    padding: 10px;
+    width: 89%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 4%;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(0, 0, 95);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(255, 255, 255, 0.467);
+}
+.docs-section5-cont {
+    margin-top: 5vh;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.docs-footer {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(0, 0, 95);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 1030px) {
+    .docs-section1-info {
+        width: 90%;
+    }
+    .docs-section2-cont {
+        flex-direction: column;
+        height: fit-content;
+        margin-top: 5px;
+    }
+    .docs-section2-left-cont {
+        width: 95%;
+        height: 45vh;
+    }
+    .docs-section2-right-cont {
+        width: 100%;
+        height: 70vh;
+    }
+    .features-list-cont {
+        list-style: none;
+        padding: 0;
+    }
+    .features {
+        text-align: center;
+    }
+    .docs-section3-cont {
+        height: 62.5vh;
+    }
+    .docs-section4-cont {
+        flex-direction: column;
+        height: 110vh;
+    }
+    .docs-section4-left-cont {
+        width: 100%;
+        height: 50%;
+    }
+    .docs-section4-right-cont {
+        width: 95%;
+        height: 50%;
+    }
+}
